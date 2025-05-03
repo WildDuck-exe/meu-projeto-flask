@@ -1,0 +1,17 @@
+echo "# Ignorar arquivos de ambiente virtual Python" > .gitignore
+echo "venv/" >> .gitignore
+echo "env/" >> .gitignore
+echo "" >> .gitignore
+echo "# Ignorar arquivos de banco de dados local" >> .gitignore
+echo "*.db" >> .gitignore
+echo "*.sqlite3" >> .gitignore
+echo "" >> .gitignore
+echo "# Ignorar arquivos temporários do Python" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "" >> .gitignore
+echo "# Ignorar arquivos de configuração sensíveis" >> .gitignore
+echo ".env" >> .gitignore
+echo "" >> .gitignore
+echo "# Ignorar arquivos de build ou logs" >> .gitignore
+echo "*.log" >> .gitignore
